@@ -3,7 +3,7 @@ NITE, the Nigh Impervious Task Executor
 
 [![Build Status](https://travis-ci.org/kalmanolah/nite.svg?branch=master)](https://travis-ci.org/kalmanolah/nite)
 
-##About
+## About
 
 NITE - the Nigh Impervious Task Executor - is a modular, event-driven remote
 task execution framework written in Python. It aims to provide developers and
@@ -15,7 +15,7 @@ It should be mentioned that this project is being worked on purely for the sake
 of hacking up something neat, and that it will probably not live up to your
 standards.
 
-##Configuring
+## Configuring
 
 Configuration will be loaded from `./config/*`, `~/.nite/config/*` and
 `/etc/nite/config/*` by default. See [config](config) for the default
@@ -23,7 +23,7 @@ configuration. Please keep in mind that modules can have their own
 configuration, so you should refer to module-specific documentation for details
 on configuring specific modules.
 
-##Writing modules
+## Writing modules
 
 Everything from the entry point group `nite.modules` will be loaded by default.
 To define your own module, add the following to your `setup.py`:
@@ -45,7 +45,7 @@ setup(
 Module classes should extend `nite.module.AbstractModule`, which can be found
 in [nite.module](nite/module.py).
 
-##Dependencies
+## Dependencies
 
 * python3
 * amqp
@@ -55,11 +55,11 @@ in [nite.module](nite/module.py).
 * colorlog
 * [ballercfg](https://github.com/kalmanolah/ballercfg)
 
-##TODO
+## TODO
 
 See [TODO](TODO)
 
-##License
+## License
 
 ```
 The MIT License (MIT)
